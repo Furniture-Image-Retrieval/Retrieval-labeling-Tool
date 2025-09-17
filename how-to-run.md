@@ -14,6 +14,10 @@ front:
 docker build -t reid-frontend .
 docker run -p 3000:3000 reid-frontend
 
+if not : 
+npm install
+npm start
+
 -----
 mongodb:
 http://localhost:27017/
