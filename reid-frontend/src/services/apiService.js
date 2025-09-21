@@ -2,7 +2,7 @@ import axios from 'axios'
 import Cookies from 'js-cookie'
 
 // const baseUrl = "http://172.17.8.38:8002"
-// const baseUrl = "http://172.17.13.44:8002"
+// const baseUrl = "http://127.0.0.1:8002"
 const baseUrl = "http://127.0.0.1:8000"
 
 

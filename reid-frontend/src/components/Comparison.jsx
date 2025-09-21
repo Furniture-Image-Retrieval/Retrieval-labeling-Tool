@@ -23,8 +23,8 @@ const Comparison = props => {
   } = props
 
   // const { gallery, query } = meta
-  // const queryItemSrc = `http://172.17.13.44:8002/statics/${query}.mp4_StartingFrom_${queryItem?.start}`
-  // const galleryItemSrc = `http://172.17.13.44:8002/statics/${gallery}.mp4_StartingFrom_${galleryItem?.start}`
+  // const queryItemSrc = `http://127.0.0.1:8002/statics/${query}.mp4_StartingFrom_${queryItem?.start}`
+  // const galleryItemSrc = `http://127.0.0.1:8002/statics/${gallery}.mp4_StartingFrom_${galleryItem?.start}`
 
   const [tempActiveQueryIndex, setTempActiveQueryIndex]= useState(activeQueryindex)
   useEffect(() => {

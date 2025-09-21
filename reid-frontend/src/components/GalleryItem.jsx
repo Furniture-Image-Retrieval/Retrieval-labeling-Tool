@@ -52,11 +52,11 @@ const GalleryItem = (props) => {
           loop
           ref={videoRef}
         >
-          <source src={`http://172.17.13.44:8002/statics/${video}`}/>
+          <source src={`http://127.0.0.1:8002/statics/${video}`}/>
         </video>
         <img
           className={`absolute rounded-xl w-full h-full  ${showVideo ? 'z-0 opacity-0' : 'z-10 opacity-100'} duration-300 transition-opacity`}
-          src={`http://172.17.13.44:8002/statics/${preview}`}
+          src={`http://127.0.0.1:8002/statics/${preview}`}
         />
         <span className='absolute z-10 top-2 left-2 text-gray-700 bg-gray-400 opacity-80 text-xl rounded-full w-8 h-8 text-center '>{master_id}</span>
       </div>
